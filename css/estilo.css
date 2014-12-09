@@ -1,0 +1,203 @@
+/*
+@keyframes mover{
+					to{
+					transform: translate(2,2);
+					}
+				}
+*/
+
+html {
+	font-family: "liberation serif";
+	color: rgb(55, 255, 102);
+	}
+header {border-radius 50%;
+}
+
+
+a{
+	color: rgb(55, 255, 102);
+	text-decoration: none;
+}
+
+	body {
+			width:1920;	
+			height:1080;
+			background:
+			url("./images/fondo1.jpg");
+			}
+	/*		
+	body:hover{
+					animation-name: mover;
+			animation-play-state: paused;
+			animation-fill-mode:both;
+			animation-timing-function: linear;
+		animation-iteration-count: infinite; 
+		animation-play-state: running;
+	}
+*/
+
+/*HEADER*/
+.cabeza {
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
+	text-align: center;
+	padding-bottom: 100px;
+	border-bottom: 1px solid rgb(55, 255, 102);
+}
+
+/*MAXI*/
+.elmaxi{
+	float: right;
+	position: fixed;
+	bottom: -250px;
+	margin-left:150px;
+	transition: all 1s;
+	width: 600px;
+	height:450px;
+}
+
+
+
+/*PORTADA*/
+#portada {
+	width: 200px;
+	float: left !important;
+	margin-left: 15px;
+	position:fixed;
+}
+#portada:hover {
+	box-shadow: 0 0 2px 2px rgb(55, 255, 102);
+	transition: all 0.7s;
+	border-radius: 2px;
+}
+
+
+/*MENU*/
+#menu {
+	width:400px;
+	font-size: 200%;
+	float: right !important;
+	margin-right: 15px;
+}
+#menu li:hover {
+	box-shadow: 0 0 4px 4px rgb(55, 255, 102);
+	transition: all 0.7s;
+}
+#menu li {
+	margin-left: 15px;
+	display: inline;
+}
+.grid-container{
+	width:100%;
+	max-width:1200px;
+	margin-left: 0px;
+}
+
+/* clearfix hack: hace que el texto quede dentro de la fila*/
+
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+
+/* formateo de las columnas */
+
+[class*='col-'] {
+    float: left; 
+    min-height: 1px; 
+    width: 16.66%;
+     
+    /*-- our gutter -- */
+ 
+}
+
+.col-1{ width: 16.66%; }
+.col-2{ width: 33.33%; }
+.col-3{ width: 50%;    }
+.col-4{ width: 66.66%; }
+.col-5{ width: 83.33%; }
+.col-6{ width: 100%;   }
+
+.outline, .outline *{
+    outline: 1px solid #F6A1A1; 
+}
+
+
+/*-- some extra column content styling 
+[class*='col-'] > p {
+ background-color: #FFC2C2; 
+ padding: 0;
+ margin: 0;
+ text-align: center; 
+ color: white; 
+}
+--*/
+
+/* Para celulares */
+@media all and (max-width:800px){
+    .col-1{ width: 33.33%;  }
+    .col-2{ width: 50%;     }
+    .col-3{ width: 83.33%;  }
+    .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;    }
+
+    .row .col-2:last-of-type{
+        width: 100%; 
+    }
+
+    .row .col-5 ~ .col-1{
+        width: 100%; 
+    }
+}
+
+@media all and (max-width:650px){
+    .col-1{ width: 50%;     }
+    .col-2{ width: 100%;    }
+    .col-3{ width: 100%;    }
+    .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;    }
+}
+
+/* MAXTRONICS */
+
+.button{
+	border: 2px solid rgb(55, 255, 102);
+	text-align:center;
+	border-radius:25%;
+	width:7.5%;
+	transition:all 0.6s;
+	margin-left: 5px;
+	margin-bottom: 5px;º
+}
+.button:hover{
+	border-radius:50%;
+}
+
+
+/* MAXITRON 
+ * Centrar el objeto. 
+ */
+.maxitron{
+	  margin-right: auto;
+ 	  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .maxitron {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .maxitron {
+    width: 970px;
+  }
+}
+@media (min-width: 1080px) {
+  .maxitron {
+    width: 1080px;
+  }
+}

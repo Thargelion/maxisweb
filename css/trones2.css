@@ -1,0 +1,399 @@
+/* trones2.css */
+
+/* PORTADA */
+
+.tron {
+	height: auto;
+}
+
+/* BLOGSSTRON */
+
+#blogsstron {
+	background-color: rgba(0, 0, 120, 0.9);
+}
+
+/** calecita*/
+
+.slider {
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.slide {
+	background-size: cover;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.active-slide {
+	display: block;
+}
+
+.slide-copy h1 {
+	color: #363636;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	margin-top: 105px;
+	margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+	color: #b7b7b7;
+	margin: 5px;
+}
+
+.slide-copy p {
+	color: #959595;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	margin-bottom: 15px;
+	margin-top: 16px;
+}
+
+.slide-img {
+	text-align: right;
+}
+
+/* Slide feature */
+
+.dosporciento {
+	text-align: center;
+}
+
+.slide-feature a {
+	display: block;
+	color: #6fc5e0;
+}
+
+.slider-nav {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.arrow-prev {
+	margin-right: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+.arrow-next {
+	margin-left: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+.slider-dots {
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.slider-dots li {
+	color: #bbbcbc;
+	display: inline;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+	color: #363636;
+}
+
+/* OLEOS */
+
+#olestron {
+	background-color: rgba(120, 0, 120, 0.9);
+}
+
+/** calecita*/
+
+.eslider {
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.eslide {
+	background-size: cover;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.active-eslide {
+	display: block;
+}
+
+.eslide-copy h1 {
+	color: #363636;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	margin-top: 105px;
+	margin-bottom: 0px;
+}
+
+.eslide-copy h2 {
+	color: #b7b7b7;
+	margin: 5px;
+}
+
+.eslide-copy p {
+	color: #959595;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	margin-bottom: 15px;
+	margin-top: 16px;
+}
+
+.eslide-img {
+	text-align: right;
+}
+
+/* eslider feature */
+
+.eslide-feature a {
+	display: block;
+	color: #6fc5e0;
+}
+
+.eslider-nav {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* control remoto */
+
+.flecha-prev {
+	margin-right: 45px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.flecha-next {
+	margin-left: 45px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.eslider-puntos {
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.eslider-puntos li {
+	color: #bbbcbc;
+	display: inline;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.eslider-puntos li.active-punto {
+	color: #363636;
+}
+
+/* ALGO */
+
+#canigaptron{
+	background-color: rgba(0, 120, 120, 0.9);
+}
+
+/* REDES */
+
+#redestron {
+	background-color: rgba(120, 120, 120, 0.9);
+}
+
+#redestab {
+	margin: auto;
+}
+
+#contactotron {
+
+}
+
+#contactotron textarea {
+	width: 400px;
+	height: 100px;
+	max-width: 500px;
+	max-height: 300px;
+}
+
+/**** RESPONSIVE DESIGN "HACK" */
+
+/*** CELULAR CHICO */
+
+@media all and (min-width: 300px) {
+	#portada {
+		height: auto;
+	}
+	.tron {
+		font-size: 50%;
+	}
+	#contactotron textarea {
+		width: 200px;
+		height: 50px;
+		max-width: 200px;
+		max-height: 100px;
+	}
+	
+	.flecha{
+		height:25px;
+		width: 10px;
+	}
+	
+/** BLOG */
+	#blogsstron {
+		height: 170px;
+	}
+	.imgblog {
+		width: 50px;
+		height: 50px;
+	}
+
+	/** OLEOS */
+	
+	#oleostron{
+		height: 150px;
+	}
+	
+	.eslider-puntos li{
+		margin: auto;
+		position: relative;
+	}
+	
+	/** REDES */
+	
+	#redestron {
+		height: 170px;
+	}
+	
+	/** CONTACTO */
+	
+	#contactotron{
+		height: 220px;
+	}
+}
+
+@media all and (min-width: 610px) {
+	#portada {
+		height: auto;
+	}
+	
+	max-height: 100px;
+	}
+
+	.imgblog {
+		width: 200px;
+		height: 200px;
+	}
+	/** BLOGS */
+	
+	#blogsstron {
+		height: 430px;
+	}
+	.slider{
+		height: 50px;
+	}
+	.slide-copy{
+		height: px;
+	}
+
+	/* OLEOS */
+
+	#oleostron{
+		height: 300px;
+	}
+
+	/* REDES */
+	#redestron {
+		height: 170px;
+	}
+	
+	/* CONTACTO */
+	#contactotron{
+		height: 300px;
+	}
+
+	#contactotron textarea {
+		width: 300px;
+		height: 50px;
+		max-width: 300px;
+		
+}
+
+@media all and (min-width: 900px) {
+	#portada {
+		height: auto;
+	}
+	.tron {
+		font-size: 100%;
+	}
+	
+	.flecha{
+		height: 50px;
+		width: 20px;
+	}
+	
+	/*** BLOGS */
+	#blogsstron {
+		height: auto;
+	}
+
+	/** ESLAIDER */
+
+	.slider {
+		height: 420px;
+	}
+
+	.imgblog {
+		width: 300px;
+		height: 300px;
+	}
+
+	/*** OLEOS */
+	#oleostron {
+		height: 580px;
+	}
+
+	.eslider {
+		height: 400px;
+	}
+
+	/*** REDES */
+	#redestron {
+		height: auto;
+	}
+
+	/*** CONTACTO */
+	
+	#contactotron{
+		height: 400px;
+	}
+	
+	#contactotron textarea {
+		width: 300px;
+		height: 50px;
+		max-width: 500px;
+		max-height: 300px;
+		font-size: 100%;
+	}	
+
+
+}

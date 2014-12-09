@@ -1,0 +1,265 @@
+/* ANIMACIONES */
+
+@keyframes ladri1{
+to {
+	transform: translate(0,200px);
+}
+}
+
+@keyframes
+ladri2 {to {
+	transform: translate(0,200px);
+}
+}
+@keyframes
+ladri3 {to {
+	transform: translate(0,200px);
+}
+}
+@keyframes
+ladri4 {to {
+	transform: translate(50px,200px);
+}
+}
+@keyframes
+ladri5 {to {
+	transform: translate(50px,200px);
+}
+}
+@keyframes
+ladri6 {to {
+	transform: translate(-410px,255px);
+}
+}
+@keyframes
+ladri7 {to {
+	transform: translate(205px,200px);
+}
+}
+@keyframes
+ladri8 {to {
+	transform: translate(205px,200px);
+}
+}
+@keyframes
+ladri9 {to {
+	transform: translate(-350px,255px);
+}
+}
+
+@keyframes
+ladric1 {to{
+	transform: translate(460px, 91px);
+}
+}
+
+@keyframes
+ladric0 {to{
+	transform: translate(-208px, 91px);
+}
+}
+
+@keyframes
+ladric2 {to{
+	transform: translate(-408px, 200px);
+}
+}
+
+@keyframes
+ladri10 {to{
+	transform: translate(265px, 146px);
+}
+}
+
+@keyframes
+ladric3 {to{
+	transform: translate(261px, 146px);
+}
+}
+
+
+/*
+ #pared1 {
+ height: 500px;
+ width: 300px;
+ }
+ */
+
+/* TÍTULO */
+
+#sitioenconstru {
+	transform: translate (-50px);
+	font-size-adjust: 1.5;
+}
+
+
+
+/* LADRILLOS */
+#ladri1 {
+	width: 200px;
+	height: 50px;
+	transform: translate(0px,-500px);
+	margin-right: 0px;
+	margin-left: 0px;
+	animation-name: ladri1;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri2 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(100px,-500px);
+	animation-name: ladri2;
+	animation-delay: 1.2s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri3 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(200px,-500px);
+	animation-name: ladri3;
+	animation-delay: 1.6s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri4 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(150px,-500px);
+	animation-name: ladri4;
+	animation-delay: 1.8s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri5 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(150px,-500px);
+	animation-name: ladri5;
+	animation-delay: 2.0s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri6 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladri6;
+	animation-delay: 2.2s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri7 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladri7;
+	animation-delay: 2.4s;
+	animation-duration: 3s;
+	animation-fill-mode: both;
+}
+
+#ladri8 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladri8;
+	animation-delay: 2.6s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri9 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladri9;
+	animation-delay: 3s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladri10 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladri10;
+	animation-delay: 3.2s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladric1 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladric1;
+	animation-delay: 2.0s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladric0 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladric0;
+	animation-delay: 1.6s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+#ladric2 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladric2;
+	animation-delay: 2.8s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+
+#ladric3 {
+	width: 200px;
+	height: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	transform: translate(0px,-500px);
+	animation-name: ladric3;
+	animation-delay: 3.4s;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}

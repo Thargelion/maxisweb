@@ -1,0 +1,218 @@
+#indice {
+	position: fixed;
+	background-color: rgba(0,100,0,0.5);
+	text-align: center;
+	color: white;
+	border: 2px solid rgb(0,50,0);
+	margin-left: -200px;
+	margin-right: auto;
+	left: 50%;
+	height: 150px;
+}
+
+.tron {
+	visibility:hidden;
+	top: 150px;
+	width:60%;
+}
+
+.tron img{
+	left:50%;
+}
+
+/* CONTENEDORES */
+
+#blogsstron {
+	height: 700px;
+	top: 150px;
+	background-color: rgba(0,100,0,0.5);
+	text-align: center;
+	color: white;
+	border: 2px solid rgb(0,50,0);
+	z-index: 1000;
+	visibility: inherit;
+	overflow: auto;
+}
+
+#contactotron {
+	background-color: rgba(0,100,0,0.5);
+	text-align: center;
+	color: white;
+	border: 2px solid rgb(0,50,0);
+	z-index: 1000;
+	visibility: inherit;
+	top: 150px;
+	position: absolute;
+}
+
+#redestron {
+	background-color: rgba(0,100,0,0.5);
+	text-align: center;
+	color: white;
+	border: 2px solid rgb(0,50,0);
+	z-index: 1000;
+	visibility: inherit;
+	top: 150px;
+	position: absolute;
+}
+
+#canigaptron {
+	position: absolute;
+	background-color: rgba(0,100,0,0.5);
+	text-align: center;
+	color: white;
+	border: 2px solid rgb(0,50,0);
+	z-index: 1000;
+	visibility: inherit;
+	top:150px;
+}
+
+#oleostron {
+	position: absolute;
+	background-color: rgba(0,100,0,0.5);
+	text-align: center;
+	color: white;
+	border: 2px solid rgb(0,50,0);
+	z-index: 1000;
+	visibility: inherit;
+	top:150px;
+}
+
+/* BLOGS */
+
+/* Carousel */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-copy h1 {
+  color: #363636;  
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin-top: 105px;
+  margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+
+/* slider */
+.slide-feature {
+  text-align: center;
+  height: 470px;
+}
+
+.slide-feature img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;  
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+
+/* CONTACTO */
+
+
+textarea {
+	width:200px;
+	max-width: 500px;
+	max-height: 300px;
+}
+
+/* REDES */
+.logo{
+	width:200px;
+	height:200px;
+}
+
+#redestab{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}

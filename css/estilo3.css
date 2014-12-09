@@ -1,0 +1,146 @@
+/* estilo3.css */
+
+/* GLOBAL */
+html {
+	background: linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px), linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px) 0 64px;
+	background-color: #708090;
+	background-size: 64px 128px;
+	color: white;
+}
+
+.maxitron {
+	background: rgba(0, 120, 0, 0.9);
+	text-align: center;
+	border: #FFFFFF solid 2px;
+	margin: auto;
+	height: auto;
+	width: 70%;
+}
+
+#corteza{
+	height:1000px;
+}
+
+#entrada{
+	height:100px;
+}
+
+/* HEADER */
+
+header{
+	height: 100px;
+}
+
+/* jonca */
+
+/* maxbol (foto del maxi) */
+#maxbol {
+	position: fixed;
+	z-index: 1000;
+	bottom: 0px;
+}
+
+
+/* MENU */
+.menu{
+	position: fixed;
+	z-index: 1000;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.logo {
+	height: 200px;
+	width: 200px;
+}
+
+.hoja{
+	background: rgba(0, 120, 0, 0.9);
+	width: 150px;
+	height: 40px;
+	text-align:center;
+	border-radius: 0 20px 0 20px;
+}
+
+.hoja span{
+	vertical-align: middle;
+}
+
+/* RESPONSIVE TRICKS, BABY! */
+
+@media all and (min-width: 30px) {
+	html{
+		font-size:  50%;
+	}
+	
+	header, .maxitron {
+		width: auto;
+		position: static;
+		height: 75px;
+	}
+	#maxbol, .logo {
+		height: 50px;
+		width: 50px;
+	}
+	.menu li{
+		width: 70px;
+		height: 10px;
+		font-size: 50%;
+		display: inline-table;		
+	}
+}
+
+
+
+@media all and (min-width: 600px) {
+	html{
+		font-size:  75%;
+	}
+	
+	header .maxitron {
+		width: auto;
+		position: static;
+		height: 75px;
+	}
+	#maxbol, .logo {
+		height: 50px;
+		width: 50px;
+	}
+	.menu li{
+		width: 70px;
+		height: 10px;
+		font-size: 50%;
+		display: inline-table;	
+	}
+}
+
+
+@media all and (min-width: 900px) {
+	html{
+		font-size:  100%;
+	}
+	
+	header .maxitron {
+		width: auto;
+		position: static;
+		height: auto;
+	}
+	
+	.maxitron{
+		width: 75%;
+		height: auto;
+	}
+	
+	#maxbol, .logo {
+		height: 150px;
+		width: 150px;
+	}
+	.menu li{
+		width: 150px;
+		height: auto;
+		font-size:100%;
+		display: block;
+	}
+}

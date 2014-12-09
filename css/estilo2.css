@@ -1,0 +1,162 @@
+@keyframes
+menumovil {
+to {
+	transform: translate(0px, -20px);
+}
+}
+
+@keyframes
+showup {to{
+	visibility: visible;
+}
+}
+
+@keyframes
+escondete {to{
+	visibility: hidden;
+}
+}
+
+/* FONDO */
+
+body {
+	font-family: "liberation serif";
+	background-color: silver;
+	background-image: radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent), radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+	background-size: 100px 50px;
+	overflow: auto;
+}
+
+/* DIV */
+
+section{
+	overflow-y:scroll;
+}
+
+/* HEADER */
+
+/*MAXI*/
+
+header {
+	position: fixed;
+	width: 40%;
+}
+
+/* margen */
+
+header maxitron{
+	margin: 10%;
+}
+
+#maxbol {
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 1s;
+	width: 280px;
+	height: 225px;
+	z-index: 1000;
+	transform: translate(0px, -400px);
+	animation-name: menumovil;
+	animation-fill-mode: both;
+	animation-duration: 3s;
+}
+
+#enlace {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+}
+
+#portada {
+	text-align: center;
+}
+
+/* Menu */
+
+
+
+.hoja {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+}
+
+.hoja h2 {
+	color: white;
+	text-align: center;
+}
+
+.menu {
+	top: 100px;
+	margin-top: -120px;
+	position: absolute;
+	visibility: hidden;
+	animation-name: showup;
+	animation-fill-mode: both;
+	animation-delay: 3.5s;
+	animation-duration: 3s;
+}
+
+#elmaxi{
+	width: 400px;
+}
+
+.menu ul {
+	list-style: none;
+	position: absolute;
+}
+
+.menu li {
+	list-style: none;
+	position: absolute;
+	border: 2px solid #2B542C;
+	background-color: rgba(0,100,0,0.5);
+	border-radius: 0 15px 0 15px;
+}
+
+#blogs {
+	background-color: rgba(0,100,0,0.5);
+	transform: translate(220px, 20px);
+	animation-name: showup;
+	animation-delay: 3s;
+}
+
+#oleos {
+	background-color: rgba(0,100,0,0.5);
+	transform: translate(160px, 200px);
+	animation-name: showup;
+	animation-delay: 3s;
+}
+
+#canigap {
+	transform: translate(0px,200px);
+	animation-name: showup;
+	animation-delay: 4s;
+	width: 150px;
+}
+
+#redes {
+	transform: translate(250px, 150px);
+	animation-name: showup;
+	animation-delay: 3s;
+}
+
+#contacto {
+	transform: translate(230px, 90px);
+	border-radius: 0 15px 0 15px;
+	animation-name: showup;
+	animation-delay: 3.5s;
+}
+
+/* ARTICLE */
+
+/* cajón */
+
+
+.maxitron {
+	color: black;
+	width: 60%;
+	height: auto;
+	margin-bottom: 5px;
+	position:absolute;
+}
