@@ -23,6 +23,7 @@ html {
 
 #entrada{
 	height:100px;
+	cursor:wait;
 }
 
 /* HEADER */
@@ -62,6 +63,7 @@ header{
 	height: 40px;
 	text-align:center;
 	border-radius: 0 20px 0 20px;
+	cursor: alias;
 }
 
 .hoja span{
@@ -111,7 +113,6 @@ header{
 	.menu li{
 		width: 70px;
 		height: 10px;
-		font-size: 50%;
 		display: inline-table;	
 	}
 }

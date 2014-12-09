@@ -20,7 +20,13 @@
 		echo $comentario;
 		<header id="elmaxi">
 			<img id="maxbol" src="images/maxi1.gif" alt="Maxi Árbol">
-			<div></div>
+			<div class="hoja" onclick="goBack()">
+				Volver Atrás
+			</div>
 		</header>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/escrol.js"></script>
 	</body>
 </html>

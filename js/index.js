@@ -132,6 +132,10 @@ $('#entrada').click(function() {
 
 });
 
+function goBack() {
+    window.history.back();
+};
+
 $(document).ready(main);
 $(document).ready(galery);
 
