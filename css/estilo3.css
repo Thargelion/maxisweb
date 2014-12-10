@@ -17,6 +17,8 @@ html {
 	width: 70%;
 }
 
+
+
 #corteza{
 	height:1000px;
 }
@@ -69,6 +71,22 @@ header{
 .hoja span{
 	vertical-align: middle;
 }
+
+/* mensajes.php */
+
+.comentario p{
+	
+}
+
+#nombre{
+	float: left;
+}
+
+#mail{
+	float: right;
+}
+
+
 
 /* RESPONSIVE TRICKS, BABY! */
 
