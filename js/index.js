@@ -129,7 +129,6 @@ $('#entrada').click(function() {
 		'filter' : 'invert (100%)'
 	});
 	$('.diesirae').append('.diesirae');
-
 });
 
 function goBack() {
