@@ -1,0 +1,26 @@
+.botonera td{
+	width: 200px;
+	height: 150px;
+	margin: 5px;
+	border:solid white 2px;
+}
+
+#bandits td{
+	background: rgba(100, 100, 100, 0.7);
+}
+
+#farmers td{
+	background: rgba(0, 100, 100, 0.7);
+}
+
+#noblemen td{
+	background: rgba(100, 100, 0, 0.7);
+}
+
+#riverpirates td{
+	background: rgba(100, 0, 100, 0.7);
+}
+
+#searaiders td{
+	background: rgba(0, 0, 100, 0.7);
+}
