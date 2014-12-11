@@ -24,3 +24,7 @@
 #searaiders td{
 	background: rgba(0, 0, 100, 0.7);
 }
+
+td{
+	cursor:pointer;
+}
