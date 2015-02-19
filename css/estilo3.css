@@ -40,7 +40,14 @@ header{
 #maxbol {
 	position: fixed;
 	z-index: 1000;
-	bottom: 0px;
+	bottom: 20px;
+	left: 20px;
+	background: rgba(0, 0, 0, 0.9);
+	width: 80px;
+	height: 20px;
+	text-align:center;
+	border-radius: 0 10px 0 10px;
+	cursor: alias;
 }
 
 
@@ -100,10 +107,6 @@ header{
 		position: static;
 		height: 75px;
 	}
-	#maxbol, .logo {
-		height: 50px;
-		width: 50px;
-	}
 	.menu li{
 		width: 70px;
 		height: 10px;
@@ -124,10 +127,7 @@ header{
 		position: static;
 		height: 75px;
 	}
-	#maxbol, .logo {
-		height: 50px;
-		width: 50px;
-	}
+
 	.menu li{
 		width: 70px;
 		height: 10px;
@@ -152,10 +152,6 @@ header{
 		height: auto;
 	}
 	
-	#maxbol, .logo {
-		height: 150px;
-		width: 150px;
-	}
 	.menu li{
 		width: 150px;
 		height: auto;
