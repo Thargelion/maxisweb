@@ -1,80 +1,225 @@
 <!DOCTYPE html>
-<html lang"es">
+<html lang="es">
 	<head>
-		<title>WORK IN PROGRESS</title>
+		<title>maxi's site</title>
 		<meta charset="UTF-8">
-		<link href="css/estilo2.css" rel= stylesheet>
-		<link href="css/pared.css" rel= stylesheet>
+		<link href="css/estilo3.css" rel="stylesheet">
+		<link href="css/trones2.css" rel="stylesheet">
 	</head>
+
 	<body>
-
-		<div class="cajon">
-			<div id="pared1">
-
-				<svg id="ladri1">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri2">
-					<rect  width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri3">
-					<rect  width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri4">
-					<rect  width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri5">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri6">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri7">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri8">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri9">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladric1">
-					<rect width="150" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladric0">
-					<rect width="50" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladric2">
-					<rect width="50" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladri10">
-					<rect width="200" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-
-				<svg id="ladric3">
-					<rect width="150" height="50" style="fill: white; stroke: black; stroke-width:1" />
-				</svg>
-		<article id="sitioenconstru">
-			<h1>SITIO EN CONSTRUCCIÓN</h1>
-		</article>
+		<!--MENU-->
+		<header id="elmaxi">
+			<div id="maxbol">
+				SUBIR
 			</div>
+			<nav class="menu">
+				<ul>
+					<li class="hoja" id="blogs"><h2>blogs</h2></li>
+					<li class="hoja" id="oleos"><h2>¡oh, leos!</h2></li>
+					<li class="hoja" id="canigap"><h2>algo</h2></li>
+					<li class="hoja" id="redes"><h2>redes</h2></li>
+					<li class="hoja" id="contacto"><h2>contacto</h2></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- TEXTO -->
+
+		<article class="maxitron" id="portada">
+			<h1>Welcome to Maxi's Forest</h1> Galería personal. Póngase cómodo.
+		</article>
+
+		<div class="tron">
+
+			<!-- BLOGS -->
+			<section id="blogsstron" class="maxitron">
+				<h2>Blogs</h2>
+				<h3>Compendio de escritos que escribo con insuperable escritura.</h3>
+				<br>
+				<!-- slider -->
+				<div class="slider">
+					<!-- Construcción de poder -->
+					<div class="slide active-slide">
+						<div class="slide-copy">
+							<div class="row">
+								<div class="slide-copy col-xs-5">
+									<h2>La construcción de poder</h2>
+									Reflexiones random sobre la sociedad
+									<br>
+									<a href="http://laconstrucciondelpoder.blogspot.com.ar/" target="_blank"><img src="images/somtransbayterminal.jpg" class="imgblog"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 2% -->
+					<div class="slide dosporciento">
+						<div class="slide-copy">
+							<div class="row">
+								<h2>El dos porciento</h2>
+								Blog sobre Linux y la vida con este
+								<br>
+								<a href="http://el2porciento.blogspot.com.ar/" target="_blank"><img src="images/tux.png" class="imgblog"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slider-nav">
+					<a href="#" class="arrow-prev"><img src="images/flecha-izq.svg" class="flecha"></a>
+					<ul class="slider-dots">
+						<li class="dot active-dot">•</li>
+						<li class="dot">•</li>
+					</ul>
+					<a href="#" class="arrow-next"><img src="images/flecha-der.svg" class="flecha"></a>
+				</div>
+			</section>
+
+			<!-- OLEOS -->
+			<section id="oleostron" class="maxitron">
+				<h2>¡Oh, Leos!</h2>
+				Galería de arte. Podría ser peor... supongo.
+
+				<!-- gallery -->
+				<div class="eslider">
+
+					<!-- hiromi -->
+					<div class="eslide active-eslide">
+						<div class="eslide-copy">
+							<div class="row">
+								<div class="eslide-copy col-xs-5">
+									<h2>Hiromi's mood</h2>
+									<img src="images/gallery/hiromi_uehara_s_mood_by_glockmonkee-d6tiom6.jpg" class="imgblog" id="hiromi">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- green -->
+					<div class="eslide eslide-feature">
+						<div class="eslide-copy">
+							<div class="row">
+								<h2>Green</h2>
+								<img src="images/gallery/green_by_glockmonkee-d4jyo68.jpg" class="imgblog" id="green">
+							</div>
+						</div>
+					</div>
+
+					<!-- vbg -->
+					<div class="eslide vgb">
+						<div class="eslide-copy">
+							<div class="row">
+								<h2>Intento de paisaje I</h2>
+								<img src="images/gallery/intento_de_paisaje_1_by_glockmonkee-d6tioa8.jpg" class="imgblog" id="vgb">
+							</div>
+						</div>
+					</div>
+
+					<!-- flying tree -->
+					<div class="eslide fyingtree">
+						<div class="eslide-copy">
+							<div class="row">
+								<h2>Flying tree</h2>
+								<img src="images/gallery/flying_tree_by_glockmonkee-d6tio0x.jpg" class="imgblog" id="flyingtree">
+							</div>
+						</div>
+					</div>
+
+				<!--Ring's star-->
+				<div class="eslide ringostarr">
+					<div class="eslide-copy">
+						<div class="row">
+							<h2>Flying tree</h2>
+							<img src="images/gallery/marge_s_ringo_by_glockmonkee-d8c43g1.jpg" class="imgblog" id="ringostarr">
+						</div>
+					</div>
+				</div>
 		</div>
 
+		<div class="eslider-nav">
+			<a href="#" class="flecha-prev"><img src="images/flecha-izq.svg" class="flecha"></a>
+			<ul class="eslider-puntos">
+				<li class="punto active-punto">•</li>
+				<li class="punto">•</li>
+				<li class="punto">•</li>
+				<li class="punto">•</li>
+				<li class="punto">•</li>
+			</ul>
+			<a href="#" class="flecha-next"><img src="images/flecha-der.svg" class="flecha"></a>
+		</div>
+
+		</section>
+
+		<!-- PROYECTO -->
+		<section id="canigaptron" class="maxitron">
+			<h2>Algo</h2>
+			Espacio reservado para un proyecto futuro re groso, mal.
+			<br>
+			Por ahora es un todo list:
+			<br>
+			<ul style="text-align: left">
+				<li>Efectos cuando emergen/desvanecen los menúses</li>
+				<li>Contenido</li>
+			</ul>
+		</section>
+
+		<!-- REDES -->
+		<section id="redestron" class="maxitron">
+			<h2>Redes sociales</h2>
+			<h3>Listado de redes sociales NSA-friendly.</h3>
+			<table id="redestab">
+				<tr>
+					<td><a href="https://www.facebook.com/maximiliano.depietro" target="_blank"><img src="images/logos/facebook.png" class="logo"></a></td>
+					<td><a href="https://twitter.com/mdepietrobunker/" target="_blank"><img src="images/logos/twitterisfortwaters.png" class="logo"></a></td>
+				</tr>
+				<tr>
+					<td><a href="https://plus.google.com/u/0/+MaximilianoDePietro/posts" target="_blank"><img src="images/logos/GooglePlus-Logo-02.png" class="logo"></a></td>
+					<td><a href="http://glockmonkee.deviantart.com/" target="_blank" class="logo"><img src="images/logos/Deviantart.png" class="logo"></a></td>
+				</tr>
+			</table>
+		</section>
+
+		<section id="contactotron" class="maxitron">
+			<h2>Contacto</h2>
+			Formulario de contacto.
+			<br>
+			<h3>Bienvenidos los saludos, las puteadas y
+			los scripts que rompan el sitio, vacíen mi PC de contenido útil y la
+			llenen de porno sueca.</h3>
+			<br>
+			<form id="formu" action="mensajes.php" method="post">
+				<label for="Nombre" >Nombre:
+					<br>
+				</label>
+				<input name="nombre" required="" type="text" placeholder="Tu nombre, real o no">
+				<br>
+				<label for="mail">Mail:
+					<br>
+				</label>
+				<input name="email" type="email" placeholder="Tu dirección de correo">
+				<br>
+				<br>
+				<textarea name="comentario" placeholder="Comentad" required> </textarea>
+				<br>
+				<button>
+					MANDAR
+				</button>
+			</form>
+		</section>
+		</div>
+
+		<div id="corteza">
+
+		</div>
+		<div id="entrada">
+			<audio class="diesirae" preload="none">
+				<source src="music/dies_irae.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<!-- ESCRIPTS -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/escrol.js"></script>
+
 	</body>
-	<!-- ESCRIPTS -->
-
-	<script src="js/index.js"></script>
-
 </html>

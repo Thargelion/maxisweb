@@ -256,7 +256,6 @@
 		height: auto;
 	}
 	.tron {
-		font-size: 50%;
 	}
 	#contactotron textarea {
 		width: 200px;
@@ -355,7 +354,7 @@
 		height: auto;
 	}
 	.tron {
-		font-size: 100%;
+
 	}
 	
 	.flecha{
@@ -413,6 +412,4 @@
 		max-height: 300px;
 		font-size: 100%;
 	}	
-
-
 }
